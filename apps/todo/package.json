@@ -1,0 +1,24 @@
+{
+	"name": "@repo/todo",
+	"version": "0.0.0",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"hono": "^4.11.7",
+		"lucide-react": "^0.563.0",
+		"preact": "^10.28.3",
+		"@repo/shared": "workspace:*",
+		"@repo/backend": "workspace:*"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.10.3",
+		"@tailwindcss/vite": "^4.1.18",
+		"tailwindcss": "^4.1.18",
+		"vite": "^7.3.1"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext", "DOM"],
+		"target": "ESNext",
+		"module": "Preserve",
+		"moduleDetection": "force",
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"allowJs": true,
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"noUncheckedIndexedAccess": true,
+		"baseUrl": ".",
+		"types": ["bun-types", "node"],
+		"paths": {
+			"@repo/shared": ["./packages/shared/index.ts"],
+			"@repo/db": ["./packages/db/index.ts"],
+			"@repo/auth": ["./packages/auth/index.ts"],
+			"@repo/backend": ["./apps/backend/src/index.ts"]
+		}
+	}
+}

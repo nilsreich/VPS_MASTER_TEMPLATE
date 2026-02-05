@@ -1,0 +1,17 @@
+{
+	"name": "@repo/db",
+	"version": "0.0.0",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"push": "drizzle-kit push"
+	},
+	"dependencies": {
+		"drizzle-orm": "latest",
+		"@libsql/client": "latest"
+	},
+	"devDependencies": {
+		"drizzle-kit": "latest"
+	}
+}

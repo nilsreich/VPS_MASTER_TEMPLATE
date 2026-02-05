@@ -1,0 +1,11 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@repo/*": ["../../packages/*/index.ts"],
+			"@repo/backend": ["../../apps/backend/src/index.ts"]
+		}
+	},
+	"include": ["src"]
+}
