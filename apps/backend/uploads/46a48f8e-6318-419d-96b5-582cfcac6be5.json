@@ -1,0 +1,145 @@
+{
+	"thema": "Funktionsuntersuchung Klasse 11 - Benchmark Optimiert",
+	"aufgaben": [
+		{
+			"id": 1,
+			"schwierigkeit": "leicht",
+			"funktion": "f(x) = x^2 - 4x",
+			"frage": "Bestimme die Nullstellen der Funktion f. Gib die x-Werte an.",
+			"loesung": "x=0, x=4"
+		},
+		{
+			"id": 2,
+			"schwierigkeit": "leicht",
+			"funktion": "f(x) = x^2 - 6x + 8",
+			"frage": "Berechne die Nullstellen der Funktion f mithilfe der pq-Formel.",
+			"loesung": "x=2, x=4"
+		},
+		{
+			"id": 3,
+			"schwierigkeit": "leicht",
+			"funktion": "f(x) = x^3 - 9x",
+			"frage": "Untersuche die Symmetrie und gib alle Nullstellen an.",
+			"loesung": "punktsymmetrisch; x=0, x=3, x=-3"
+		},
+		{
+			"id": 4,
+			"schwierigkeit": "leicht",
+			"funktion": "f(x) = 2x^2 + 8x + 6",
+			"frage": "Ermittle die Koordinaten und die Art des Extrempunktes.",
+			"loesung": "Tiefpunkt T(-2|-2)"
+		},
+		{
+			"id": 5,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = x^4 - 10x^2 + 9",
+			"frage": "Bestimme alle reellen Nullstellen der Funktion f durch Substitution.",
+			"loesung": "x=1, x=-1, x=3, x=-3"
+		},
+		{
+			"id": 6,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = x^3 - 4x^2 + x + 6",
+			"frage": "Berechne alle Nullstellen, wenn x = -1 eine bekannte Nullstelle ist.",
+			"loesung": "x=-1, x=2, x=3"
+		},
+		{
+			"id": 7,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = x^4 - 5x^2 + 4",
+			"frage": "Berechne die exakten x-Koordinaten aller Extremstellen.",
+			"loesung": "x=0, x=sqrt(2.5), x=-sqrt(2.5)"
+		},
+		{
+			"id": 8,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = 1/3x^3 - x^2 - 3x",
+			"frage": "Bestimme die x-Koordinate des Wendepunkts.",
+			"loesung": "x=1"
+		},
+		{
+			"id": 9,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = x^3 - 3x^2",
+			"frage": "Gib die Koordinaten von Hochpunkt (H), Tiefpunkt (T) und Wendepunkt (W) an.",
+			"loesung": "H(0|0), T(2|-4), W(1|-2)"
+		},
+		{
+			"id": 10,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = 2x^4 - 8x^2",
+			"frage": "Bestimme die Nullstellen und das Verhalten für x -> unendlich.",
+			"loesung": "x=0, x=2, x=-2; f(x)->unendlich"
+		},
+		{
+			"id": 11,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = x^3 - 6x^2 + 9x",
+			"frage": "Bestimme alle Nullstellen und gib an, welche davon ein Berührpunkt ist.",
+			"loesung": "x=0 (Schnitt), x=3 (Berührung)"
+		},
+		{
+			"id": 12,
+			"schwierigkeit": "mittel",
+			"funktion": "f(x) = x^4 - 13x^2 + 36",
+			"frage": "Berechne alle Schnittpunkte mit der x-Achse.",
+			"loesung": "x=2, x=-2, x=3, x=-3"
+		},
+		{
+			"id": 13,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = x^3 - x^2 - 10x - 8",
+			"frage": "Berechne alle Nullstellen (z.B. mittels Polynomdivision).",
+			"loesung": "x=-1, x=-2, x=4"
+		},
+		{
+			"id": 14,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = 0.5x^4 - 4x^2 + 6",
+			"frage": "Bestimme die Koordinaten aller Extrempunkte.",
+			"loesung": "H(0|6), T1(2|-2), T2(-2|-2)"
+		},
+		{
+			"id": 15,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = x^3 + 2x^2 - 5x - 6",
+			"frage": "Bestimme die Tangentengleichung an der Stelle x = 0.",
+			"loesung": "y = -5x - 6"
+		},
+		{
+			"id": 16,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = x^4 - 4x^3",
+			"frage": "Untersuche die Stelle x = 0 auf Extrempunkt oder Sattelpunkt.",
+			"loesung": "Sattelpunkt S(0|0)"
+		},
+		{
+			"id": 17,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = 3x^4 - 12x^2",
+			"frage": "Gib das Intervall an, in dem der Graph streng unterhalb der x-Achse verläuft.",
+			"loesung": "I = (-2 ; 0) U (0 ; 2)"
+		},
+		{
+			"id": 18,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = x^3 - 5x^2 + 2x + 8",
+			"frage": "Gib die vollständige Linearfaktorzerlegung von f(x) an.",
+			"loesung": "f(x) = (x+1)(x-2)(x-4)"
+		},
+		{
+			"id": 19,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = -x^4 + 5x^2 - 4",
+			"frage": "Berechne die x-Koordinaten aller lokalen Maxima.",
+			"loesung": "x=1.58, x=-1.58"
+		},
+		{
+			"id": 20,
+			"schwierigkeit": "schwer",
+			"funktion": "f(x) = 1/4x^4 - 2x^2",
+			"frage": "Berechne die Wendestellen der Funktion f.",
+			"loesung": "x=1.15, x=-1.15"
+		}
+	]
+}

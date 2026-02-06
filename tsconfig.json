@@ -20,6 +20,9 @@
 			"@repo/shared": ["./packages/shared/index.ts"],
 			"@repo/db": ["./packages/db/index.ts"],
 			"@repo/auth": ["./packages/auth/index.ts"],
+			"@repo/storage": ["./packages/storage/index.ts"],
+			"@repo/todo": ["./packages/todo/index.ts"],
+			"@repo/ws": ["./packages/ws/index.ts"],
 			"@repo/backend": ["./apps/backend/src/index.ts"]
 		}
 	}

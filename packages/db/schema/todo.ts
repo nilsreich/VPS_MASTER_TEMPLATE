@@ -1,7 +1,6 @@
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
-import { createTableName } from "../schema-helper";
+import { createTableName } from "../utils";
 
-// Prefix 'todo_' zur logischen Trennung in einer Datei
 export const todos = sqliteTable(createTableName("todo", "items"), {
 	id: integer("id").primaryKey({ autoIncrement: true }),
 	content: text("content").notNull(),

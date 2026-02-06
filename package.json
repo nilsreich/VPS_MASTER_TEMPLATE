@@ -4,11 +4,10 @@
 	"private": true,
 	"workspaces": ["apps/*", "packages/*"],
 	"scripts": {
-		"dev:backend": "bun run --filter @repo/backend dev",
-		"dev:todo": "bun run --filter @repo/todo dev",
+		"dev": "bun scripts/dev.ts",
 		"db:push": "bun run --filter @repo/db push",
 		"lint": "bunx @biomejs/biome check --write .",
-		"build": "bun run --filter \"*\" build"
+		"build": "bun scripts/build.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",

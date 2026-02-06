@@ -87,5 +87,3 @@ export const cleanupExpiredSessions = async () => {
 		// Cleanup fehlgeschlagen
 	}
 };
-
-export * from "./router";

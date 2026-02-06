@@ -1,5 +1,5 @@
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
-import { createTableName } from "../schema-helper";
+import { createTableName } from "../utils";
 
 export const sessions = sqliteTable(createTableName("auth", "sessions"), {
 	id: text("id").primaryKey(),

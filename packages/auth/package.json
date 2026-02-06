@@ -5,6 +5,8 @@
 	"type": "module",
 	"private": true,
 	"dependencies": {
-		"hono": "latest"
+		"hono": "^4.11.8",
+		"zod": "^3.24.1",
+		"@hono/zod-validator": "^0.2.1"
 	}
 }
