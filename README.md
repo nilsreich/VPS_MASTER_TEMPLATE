@@ -8,7 +8,7 @@ Dieses Repository ist in Apps und gemeinsam genutzte Pakete unterteilt:
 
 ### Apps
 - **[apps/backend](apps/backend)**: Hono-basiertes Backend mit Authentifizierung, Todo-API und Datei-Handling.
-- **[apps/todo](apps/todo)**: Preact-Frontend mit Vite und Tailwind CSS.
+- **[apps/todo-web](apps/todo-web)**: Preact-Frontend mit Vite und Tailwind CSS.
 
 ### Pakete (Packages)
 - **[packages/shared](packages/shared)**: Gemeinsame Zod-Schemas und TypeScript-Typdefinitionen.

@@ -11,7 +11,22 @@ import { type WSData, websocket } from "./ws";
 const app = new Hono<{ Variables: { user: { id: string } | null } }>();
 
 app.use("*", logger());
-app.use("*", cors({ origin: (o) => o, credentials: true }));
+
+const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS?.split(",") || [
+	"http://localhost:5173",
+	"http://localhost:3000",
+];
+
+app.use(
+	"*",
+	cors({
+		origin: (origin) => {
+			if (ALLOWED_ORIGINS.includes(origin)) return origin;
+			return ALLOWED_ORIGINS[0];
+		},
+		credentials: true,
+	}),
+);
 
 // Auth & API
 app.use("/auth/me", authMiddleware);
