@@ -1,0 +1,19 @@
+[package]
+name = "spa-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "signal", "macros"] }
+tower-http = { version = "0.6", features = ["compression-full"] }
+tower_governor = "0.8"
+rust-embed = { version = "8", features = ["compression"] }
+mime_guess = "2"
+
+[profile.release]
+opt-level = 3          # maximale Runtime-Performance (nicht "z" = minimize size)
+lto = "fat"            # aggressiveres cross-crate LTO als lto=true (="thin")
+codegen-units = 1      # kein Parallelismus → mehr Optimierungssicht für LLVM
+panic = "abort"        # kein Unwinding-Code → kleineres Binary, schneller
+strip = true           # debug symbols raus
